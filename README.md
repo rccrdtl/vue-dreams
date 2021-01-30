@@ -1,5 +1,7 @@
 ## Vue Dreams
 
+Created with Vue CLI (Vue 3) and Tailwind CSS.
+
 ```bash
 # Install dependencies
 npm install
