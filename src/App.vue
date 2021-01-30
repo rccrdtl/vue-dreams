@@ -6,9 +6,7 @@
             <span v-if="! findOutMore" @click="findOutMore = ! findOutMore" class="font-semibold text-indigo-500 hover:underline cursor-pointer">Find out more</span>
             <span v-else class="font-semibold">About Vue Dreams</span>
             <div v-if="findOutMore" class="mt-2">
-                <p class="mb-2">This  app is built with Vue 3 and TailwindCSS. It provides basic functionality and serves as an example app for beginners who are starting to learn Vue. There is no backend implemented; therefore each page reload resets the app.</p>
-                <p class="mb-2">There are no cookies or tracking tools.</p>
-                <p>Head over to <a href="https://github.com/riccitalia/vue-dreams" target="_blank" class="font-semibold text-indigo-500 hover:underline cursor-pointer">Github</a> and check out the source code!</p>
+                <p class="mb-2">Built with Vue 3 and Tailwind CSS. Source Code available at <a href="https://github.com/riccitalia/vue-dreams" target="_blank" class="font-semibold text-indigo-500 hover:underline cursor-pointer">Github</a>.</p>
             </div>
         </div>
     </div>
